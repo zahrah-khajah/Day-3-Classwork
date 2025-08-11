@@ -1,0 +1,82 @@
+:root{
+    --primary-color: #b9d7f8;
+    --secondary-color: #557ea3;
+    --tertiary-color: #f5f8fb;
+    --text-color: #012c57;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+#main-title{
+    background-color: #b9d7f8;
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 30px;
+    border: 20px dotted var(--text-color);
+    margin: auto;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+.sub-title{
+    background-color: #f5f8fb;
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 90px;
+    border: 20px double var(--text-color);
+    margin: 20px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 350px;
+}
+.paragraph-text{
+    background-color: #012c57;
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 15px;
+    border: 10px dotted var(--primary-color);
+    margin: 20px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 1200px;
+}
+.unordered-list{
+    padding-left: 30px;
+    background-color: #012c57;
+    color: var(--secondary-color);
+    border-radius: 15px;
+    border: 10px dashed var(--primary-color);
+    margin: 20px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 1200px;
+}
+.container{
+    background-color: #012c57;
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 15px;
+    border: 10px dashed var(--primary-color);
+    margin: 20px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 350px;
+}
+#submit-button{
+    background-color: #f5f8fb;
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 90px;
+    border: 20px double var(--primary-color);
+    margin: 20px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
